@@ -1,0 +1,1257 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>nest-course documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">nest-course documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content miscellaneous-variables">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Miscellaneous</li>
+  <li>Variables</li>
+</ol>
+
+<section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <ul class="index-list">
+                        <li>
+                            <a href="#client" title="src/populate-db.ts" ><b>client</b>&nbsp;&nbsp;&nbsp;(src/.../populate-db.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#COURSES" title="src/db-data.ts" ><b>COURSES</b>&nbsp;&nbsp;&nbsp;(src/.../db-data.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#coursesSchema" title="src/courses/schemas/courses.schema.ts" ><b>coursesSchema</b>&nbsp;&nbsp;&nbsp;(src/.../courses.schema.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#dbName" title="src/populate-db.ts" ><b>dbName</b>&nbsp;&nbsp;&nbsp;(src/.../populate-db.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#jwtConstants" title="src/constants/constants.ts" ><b>jwtConstants</b>&nbsp;&nbsp;&nbsp;(src/.../constants.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#LESSONS" title="src/db-data.ts" ><b>LESSONS</b>&nbsp;&nbsp;&nbsp;(src/.../db-data.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#lessonsSchema" title="src/courses/schemas/lessons.schema.ts" ><b>lessonsSchema</b>&nbsp;&nbsp;&nbsp;(src/.../lessons.schema.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#MONGO_CONNECTION" title="src/constants.ts" ><b>MONGO_CONNECTION</b>&nbsp;&nbsp;&nbsp;(src/.../constants.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#MongoClient" title="src/populate-db.ts" ><b>MongoClient</b>&nbsp;&nbsp;&nbsp;(src/.../populate-db.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#MONGODB_CONNECTION_URL" title="src/populate-db.ts" ><b>MONGODB_CONNECTION_URL</b>&nbsp;&nbsp;&nbsp;(src/.../populate-db.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#ObjectId" title="src/populate-db.ts" ><b>ObjectId</b>&nbsp;&nbsp;&nbsp;(src/.../populate-db.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#USERS" title="src/db-data.ts" ><b>USERS</b>&nbsp;&nbsp;&nbsp;(src/.../db-data.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#UsersSchema" title="src/auth/schemas/users.schema.ts" ><b>UsersSchema</b>&nbsp;&nbsp;&nbsp;(src/.../users.schema.ts)</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+    <h3>src/populate-db.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="client"></a>
+                    <span class="name">
+                        <span ><b>client</b></span>
+                        <a href="#client"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new MongoClient(MONGODB_CONNECTION_URL)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dbName"></a>
+                    <span class="name">
+                        <span ><b>dbName</b></span>
+                        <a href="#dbName"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;nestjs-course&#x27;</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="MongoClient"></a>
+                    <span class="name">
+                        <span ><b>MongoClient</b></span>
+                        <a href="#MongoClient"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>require(&#x27;mongodb&#x27;).MongoClient</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="MONGODB_CONNECTION_URL"></a>
+                    <span class="name">
+                        <span ><b>MONGODB_CONNECTION_URL</b></span>
+                        <a href="#MONGODB_CONNECTION_URL"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;localhost:27017&#x27;</code>
+                    </td>
+                </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><hr>
+<p>IMPORTANT!!!</p>
+<p>MongoDB Connection URL - create your own url with the right cluster name, username, password and database name</p>
+<p>Format: mongodb+srv://username:password@clustername</p>
+<p>Example (don&#39;t use this as you don&#39;t have write access):</p>
+<p>mongodb+srv://nestjs:<a href="mailto:&#x5a;&#x65;&#x45;&#106;&#x64;&#115;&#119;&#79;&#x57;&#x48;&#x77;&#x6f;&#101;&#110;&#x51;&#79;&#x40;&#99;&#108;&#x75;&#x73;&#x74;&#101;&#x72;&#48;&#x2d;&#x64;&#98;&#x75;&#99;&#113;&#x2e;&#x67;&#99;&#112;&#46;&#x6d;&#111;&#110;&#x67;&#111;&#100;&#98;&#46;&#110;&#x65;&#116;">&#x5a;&#x65;&#x45;&#106;&#x64;&#115;&#119;&#79;&#x57;&#x48;&#x77;&#x6f;&#101;&#110;&#x51;&#79;&#x40;&#99;&#108;&#x75;&#x73;&#x74;&#101;&#x72;&#48;&#x2d;&#x64;&#98;&#x75;&#99;&#113;&#x2e;&#x67;&#99;&#112;&#46;&#x6d;&#111;&#110;&#x67;&#111;&#100;&#98;&#46;&#110;&#x65;&#116;</a></p>
+<hr>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ObjectId"></a>
+                    <span class="name">
+                        <span ><b>ObjectId</b></span>
+                        <a href="#ObjectId"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>require(&#x27;mongodb&#x27;).ObjectID</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/db-data.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="COURSES"></a>
+                    <span class="name">
+                        <span ><b>COURSES</b></span>
+                        <a href="#COURSES"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  14: {
+    id: 14,
+    description: &#x27;NestJs In Practice Course&#x27;,
+    longDescription:
+      &#x27;Build a modern REST backend using Typescript, MongoDB and the familiar Angular API.&#x27;,
+    iconUrl:
+      &#x27;https://angular-university.s3-us-west-1.amazonaws.com/course-images/nestjs-v2.png&#x27;,
+    category: &#x27;BEGINNER&#x27;,
+    lessonsCount: 10,
+    seqNo: 0,
+    url: &#x27;nestjs-course&#x27;,
+    promo: false,
+  },
+  4: {
+    id: 4,
+    description: &#x27;NgRx (with NgRx Data) - The Complete Guide&#x27;,
+    longDescription:
+      &#x27;Learn the modern Ngrx Ecosystem, including NgRx Data, Store, Effects, Router Store, Ngrx Entity, and Dev Tools.&#x27;,
+    iconUrl:
+      &#x27;https://angular-university.s3-us-west-1.amazonaws.com/course-images/ngrx-v2.png&#x27;,
+    category: &#x27;BEGINNER&#x27;,
+    lessonsCount: 10,
+    seqNo: 1,
+    url: &#x27;ngrx-course&#x27;,
+    promo: false,
+  },
+
+  2: {
+    id: 2,
+    description: &#x27;Angular Core Deep Dive&#x27;,
+    longDescription:
+      &#x27;A detailed walk-through of the most important part of Angular - the Core and Common modules&#x27;,
+    iconUrl:
+      &#x27;https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-core-in-depth-small.png&#x27;,
+    lessonsCount: 10,
+    category: &#x27;BEGINNER&#x27;,
+    seqNo: 2,
+    url: &#x27;angular-core-course&#x27;,
+    promo: false,
+  },
+
+  3: {
+    id: 3,
+    description: &#x27;RxJs In Practice Course&#x27;,
+    longDescription:
+      &#x27;Understand the RxJs Observable pattern, learn the RxJs Operators via practical examples&#x27;,
+    iconUrl:
+      &#x27;https://s3-us-west-1.amazonaws.com/angular-university/course-images/rxjs-in-practice-course.png&#x27;,
+    category: &#x27;BEGINNER&#x27;,
+    lessonsCount: 10,
+    seqNo: 3,
+    url: &#x27;rxjs-course&#x27;,
+    promo: false,
+  },
+
+  1: {
+    id: 1,
+    description: &#x27;Serverless Angular with Firebase Course&#x27;,
+    longDescription:
+      &#x27;Serveless Angular with Firestore, Firebase Storage &amp; Hosting, Firebase Cloud Functions &amp; AngularFire&#x27;,
+    iconUrl:
+      &#x27;https://s3-us-west-1.amazonaws.com/angular-university/course-images/serverless-angular-small.png&#x27;,
+    lessonsCount: 10,
+    category: &#x27;BEGINNER&#x27;,
+    seqNo: 4,
+    url: &#x27;serverless-angular&#x27;,
+    promo: false,
+  },
+
+  /*
+  5: {
+    id: 5,
+    description: &#x27;Angular for Beginners&#x27;,
+    longDescription: &quot;Establish a solid layer of fundamentals, learn what&#x27;s under the hood of Angular&quot;,
+    iconUrl: &#x27;https://angular-academy.s3.amazonaws.com/thumbnails/angular2-for-beginners-small-v2.png&#x27;,
+    category: &#x27;BEGINNER&#x27;,
+    lessonsCount: 10,
+    seqNo: 5,
+    url: &#x27;angular-for-beginners&#x27;
+  },
+*/
+
+  12: {
+    id: 12,
+    description: &#x27;Angular Testing Course&#x27;,
+    longDescription:
+      &#x27;In-depth guide to Unit Testing and E2E Testing of Angular Applications&#x27;,
+    iconUrl:
+      &#x27;https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-testing-small.png&#x27;,
+    category: &#x27;BEGINNER&#x27;,
+    seqNo: 6,
+    url: &#x27;angular-testing-course&#x27;,
+    lessonsCount: 10,
+    promo: false,
+  },
+
+  6: {
+    id: 6,
+    description: &#x27;Angular Security Course - Web Security Fundamentals&#x27;,
+    longDescription:
+      &#x27;Learn Web Security Fundamentals and apply them to defend an Angular / Node Application from multiple types of attacks.&#x27;,
+    iconUrl:
+      &#x27;https://s3-us-west-1.amazonaws.com/angular-university/course-images/security-cover-small-v2.png&#x27;,
+    category: &#x27;ADVANCED&#x27;,
+    lessonsCount: 11,
+    seqNo: 7,
+    url: &#x27;angular-security-course&#x27;,
+    promo: false,
+  },
+
+  7: {
+    id: 7,
+    description: &#x27;Angular PWA - Progressive Web Apps Course&#x27;,
+    longDescription:
+      &#x27;Learn Angular Progressive Web Applications, build the future of the Web Today.&#x27;,
+    iconUrl:
+      &#x27;https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-pwa-course.png&#x27;,
+    category: &#x27;ADVANCED&#x27;,
+    lessonsCount: 8,
+    seqNo: 8,
+    url: &#x27;angular-pwa-course&#x27;,
+    promo: false,
+  },
+
+  8: {
+    id: 8,
+    description: &#x27;Angular Advanced Library Laboratory: Build Your Own Library&#x27;,
+    longDescription:
+      &#x27;Learn Advanced Angular functionality typically used in Library Development. Advanced Components, Directives, Testing, Npm&#x27;,
+    iconUrl:
+      &#x27;https://angular-academy.s3.amazonaws.com/thumbnails/advanced_angular-small-v3.png&#x27;,
+    category: &#x27;ADVANCED&#x27;,
+    seqNo: 9,
+    url: &#x27;angular-advanced-course&#x27;,
+    promo: false,
+  },
+
+  9: {
+    id: 9,
+    description: &#x27;The Complete Typescript Course&#x27;,
+    longDescription:
+      &#x27;Complete Guide to Typescript From Scratch: Learn the language in-depth and use it to build a Node REST API.&#x27;,
+    iconUrl:
+      &#x27;https://angular-academy.s3.amazonaws.com/thumbnails/typescript-2-small.png&#x27;,
+    category: &#x27;BEGINNER&#x27;,
+    seqNo: 10,
+    url: &#x27;typescript-course&#x27;,
+    promo: false,
+  },
+
+  10: {
+    id: 10,
+    description: &#x27;Rxjs and Reactive Patterns Angular Architecture Course&#x27;,
+    longDescription:
+      &#x27;Learn the core RxJs Observable Pattern as well and many other Design Patterns for building Reactive Angular Applications.&#x27;,
+    iconUrl:
+      &#x27;https://s3-us-west-1.amazonaws.com/angular-academy/blog/images/rxjs-reactive-patterns-small.png&#x27;,
+    category: &#x27;BEGINNER&#x27;,
+    seqNo: 11,
+    url: &#x27;rxjs-patterns-course&#x27;,
+    promo: false,
+  },
+
+  11: {
+    id: 11,
+    description: &#x27;Angular Material Course&#x27;,
+    longDescription:
+      &#x27;Build Applications with the official Angular Widget Library&#x27;,
+    iconUrl:
+      &#x27;https://s3-us-west-1.amazonaws.com/angular-university/course-images/material_design.png&#x27;,
+    category: &#x27;BEGINNER&#x27;,
+    seqNo: 12,
+    url: &#x27;angular-material-course&#x27;,
+    promo: false,
+  },
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="LESSONS"></a>
+                    <span class="name">
+                        <span ><b>LESSONS</b></span>
+                        <a href="#LESSONS"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  1: {
+    id: 1,
+    description:
+      &#x27;Angular Tutorial For Beginners - Build Your First App - Hello World Step By Step&#x27;,
+    duration: &#x27;4:17&#x27;,
+    seqNo: 1,
+    courseId: 5,
+  },
+  2: {
+    id: 2,
+    description: &#x27;Building Your First  Component - Component Composition&#x27;,
+    duration: &#x27;2:07&#x27;,
+    seqNo: 2,
+    courseId: 5,
+  },
+  3: {
+    id: 3,
+    description: &#x27;Component @Input - How To Pass Input Data To an  Component&#x27;,
+    duration: &#x27;2:33&#x27;,
+    seqNo: 3,
+    courseId: 5,
+  },
+  4: {
+    id: 4,
+    description: &#x27; Component Events - Using @Output to create custom events&#x27;,
+    duration: &#x27;4:44&#x27;,
+    seqNo: 4,
+    courseId: 5,
+  },
+  5: {
+    id: 5,
+    description: &#x27; Component Templates - Inline Vs External&#x27;,
+    duration: &#x27;2:55&#x27;,
+    seqNo: 5,
+    courseId: 5,
+  },
+  6: {
+    id: 6,
+    description: &#x27;Styling  Components - Learn About Component Style Isolation&#x27;,
+    duration: &#x27;3:27&#x27;,
+    seqNo: 6,
+    courseId: 5,
+  },
+  7: {
+    id: 7,
+    description: &#x27; Component Interaction - Extended Components Example&#x27;,
+    duration: &#x27;9:22&#x27;,
+    seqNo: 7,
+    courseId: 5,
+  },
+  8: {
+    id: 8,
+    description: &#x27; Components Tutorial For Beginners - Components Exercise !&#x27;,
+    duration: &#x27;1:26&#x27;,
+    seqNo: 8,
+    courseId: 5,
+  },
+  9: {
+    id: 9,
+    description:
+      &#x27; Components Tutorial For Beginners - Components Exercise Solution Inside&#x27;,
+    duration: &#x27;2:08&#x27;,
+    seqNo: 9,
+    courseId: 5,
+  },
+  10: {
+    id: 10,
+    description:
+      &#x27; Directives - Inputs, Output Event Emitters and How To Export Template References&#x27;,
+    duration: &#x27;4:01&#x27;,
+    seqNo: 10,
+    courseId: 5,
+  },
+
+  // Security Course
+  11: {
+    id: 11,
+    description: &#x27;Course Helicopter View&#x27;,
+    duration: &#x27;08:19&#x27;,
+    seqNo: 1,
+    courseId: 6,
+  },
+
+  12: {
+    id: 12,
+    description: &#x27;Installing Git, Node, NPM and Choosing an IDE&#x27;,
+    duration: &#x27;04:17&#x27;,
+    seqNo: 2,
+    courseId: 6,
+  },
+
+  13: {
+    id: 13,
+    description:
+      &#x27;Installing The Lessons Code - Learn Why Its Essential To Use NPM 5&#x27;,
+    duration: &#x27;06:05&#x27;,
+    seqNo: 3,
+    courseId: 6,
+  },
+
+  14: {
+    id: 14,
+    description: &#x27;How To Run Node In TypeScript With Hot Reloading&#x27;,
+    duration: &#x27;03:57&#x27;,
+    seqNo: 4,
+    courseId: 6,
+  },
+
+  15: {
+    id: 15,
+    description: &#x27;Guided Tour Of The Sample Application&#x27;,
+    duration: &#x27;06:00&#x27;,
+    seqNo: 5,
+    courseId: 6,
+  },
+  16: {
+    id: 16,
+    description: &#x27;Client Side Authentication Service - API Design&#x27;,
+    duration: &#x27;04:53&#x27;,
+    seqNo: 6,
+    courseId: 6,
+  },
+  17: {
+    id: 17,
+    description: &#x27;Client Authentication Service - Design and Implementation&#x27;,
+    duration: &#x27;09:14&#x27;,
+    seqNo: 7,
+    courseId: 6,
+  },
+  18: {
+    id: 18,
+    description:
+      &#x27;The New Angular HTTP Client - Doing a POST Call To The Server&#x27;,
+    duration: &#x27;06:08&#x27;,
+    seqNo: 8,
+    courseId: 6,
+  },
+  19: {
+    id: 19,
+    description: &#x27;User Sign Up Server-Side Implementation in Express&#x27;,
+    duration: &#x27;08:50&#x27;,
+    seqNo: 9,
+    courseId: 6,
+  },
+  20: {
+    id: 20,
+    description: &#x27;Introduction To Cryptographic Hashes - A Running Demo&#x27;,
+    duration: &#x27;05:46&#x27;,
+    seqNo: 10,
+    courseId: 6,
+  },
+  21: {
+    id: 21,
+    description:
+      &#x27;Some Interesting Properties Of Hashing Functions - Validating Passwords&#x27;,
+    duration: &#x27;06:31&#x27;,
+    seqNo: 11,
+    courseId: 6,
+  },
+
+  // PWA course
+
+  22: {
+    id: 22,
+    description:
+      &#x27;Course Kick-Off - Install Node, NPM, IDE And Service Workers Section Code&#x27;,
+    duration: &#x27;07:19&#x27;,
+    seqNo: 1,
+    courseId: 7,
+  },
+  23: {
+    id: 23,
+    description: &#x27;Service Workers In a Nutshell - Service Worker Registration&#x27;,
+    duration: &#x27;6:59&#x27;,
+    seqNo: 2,
+    courseId: 7,
+  },
+  24: {
+    id: 24,
+    description:
+      &#x27;Service Workers Hello World - Lifecycle Part 1 and PWA Chrome Dev Tools&#x27;,
+    duration: &#x27;7:28&#x27;,
+    seqNo: 3,
+    courseId: 7,
+  },
+  25: {
+    id: 25,
+    description:
+      &#x27;Service Workers and Application Versioning - Install &amp; Activate Lifecycle Phases&#x27;,
+    duration: &#x27;10:17&#x27;,
+    seqNo: 4,
+    courseId: 7,
+  },
+
+  26: {
+    id: 26,
+    description:
+      &#x27;Downloading The Offline Page - The Service Worker Installation Phase&#x27;,
+    duration: &#x27;09:50&#x27;,
+    seqNo: 5,
+    courseId: 7,
+  },
+  27: {
+    id: 27,
+    description: &#x27;Introduction to the Cache Storage PWA API&#x27;,
+    duration: &#x27;04:44&#x27;,
+    seqNo: 6,
+    courseId: 7,
+  },
+  28: {
+    id: 28,
+    description: &#x27;View Service Workers HTTP Interception Features In Action&#x27;,
+    duration: &#x27;06:07&#x27;,
+    seqNo: 7,
+    courseId: 7,
+  },
+  29: {
+    id: 29,
+    description: &#x27;Service Workers Error Handling - Serving The Offline Page&#x27;,
+    duration: &#x27;5:38&#x27;,
+    seqNo: 8,
+    courseId: 7,
+  },
+
+  // Serverless Angular with Firebase Course
+
+  30: {
+    id: 30,
+    description: &#x27;Development Environment Setup&#x27;,
+    duration: &#x27;5:38&#x27;,
+    seqNo: 1,
+    courseId: 1,
+  },
+
+  31: {
+    id: 31,
+    description: &#x27;Introduction to the Firebase Ecosystem&#x27;,
+    duration: &#x27;5:12&#x27;,
+    seqNo: 2,
+    courseId: 1,
+  },
+
+  32: {
+    id: 32,
+    description: &#x27;Importing Data into Firestore&#x27;,
+    duration: &#x27;4:07&#x27;,
+    seqNo: 3,
+    courseId: 1,
+  },
+
+  33: {
+    id: 33,
+    description: &#x27;Firestore Documents in Detail&#x27;,
+    duration: &#x27;7:32&#x27;,
+    seqNo: 4,
+    courseId: 1,
+  },
+
+  34: {
+    id: 34,
+    description: &#x27;Firestore Collections in Detail&#x27;,
+    duration: &#x27;6:28&#x27;,
+    seqNo: 5,
+    courseId: 1,
+  },
+
+  35: {
+    id: 35,
+    description: &#x27;Firestore Unique Identifiers&#x27;,
+    duration: &#x27;4:38&#x27;,
+    seqNo: 6,
+    courseId: 1,
+  },
+
+  36: {
+    id: 36,
+    description: &#x27;Querying Firestore Collections&#x27;,
+    duration: &#x27;7:54&#x27;,
+    seqNo: 7,
+    courseId: 1,
+  },
+
+  37: {
+    id: 37,
+    description: &#x27;Firebase Security Rules In Detail&#x27;,
+    duration: &#x27;5:31&#x27;,
+    seqNo: 8,
+    courseId: 1,
+  },
+
+  38: {
+    id: 38,
+    description: &#x27;Firebase Cloud Functions In Detail&#x27;,
+    duration: &#x27;8:19&#x27;,
+    seqNo: 9,
+    courseId: 1,
+  },
+
+  39: {
+    id: 39,
+    description: &#x27;Firebase Storage In Detail&#x27;,
+    duration: &#x27;7:05&#x27;,
+    seqNo: 10,
+    courseId: 1,
+  },
+
+  // Angular Testing Course
+
+  40: {
+    id: 40,
+    description: &#x27;Angular Testing Course - Helicopter View&#x27;,
+    duration: &#x27;5:38&#x27;,
+    seqNo: 1,
+    courseId: 12,
+  },
+
+  41: {
+    id: 41,
+    description: &#x27;Setting Up the Development Environment&#x27;,
+    duration: &#x27;5:12&#x27;,
+    seqNo: 2,
+    courseId: 12,
+  },
+
+  42: {
+    id: 42,
+    description: &#x27;Introduction to Jasmine, Spies and specs&#x27;,
+    duration: &#x27;4:07&#x27;,
+    seqNo: 3,
+    courseId: 12,
+  },
+
+  43: {
+    id: 43,
+    description: &#x27;Introduction to Service Testing&#x27;,
+    duration: &#x27;7:32&#x27;,
+    seqNo: 4,
+    courseId: 12,
+  },
+
+  44: {
+    id: 44,
+    description: &#x27;Settting up the Angular TestBed&#x27;,
+    duration: &#x27;6:28&#x27;,
+    seqNo: 5,
+    courseId: 12,
+  },
+
+  45: {
+    id: 45,
+    description: &#x27;Mocking Angular HTTP requests&#x27;,
+    duration: &#x27;4:38&#x27;,
+    seqNo: 6,
+    courseId: 12,
+  },
+
+  46: {
+    id: 46,
+    description: &#x27;Simulating Failing HTTP Requests&#x27;,
+    duration: &#x27;7:54&#x27;,
+    seqNo: 7,
+    courseId: 12,
+  },
+
+  47: {
+    id: 47,
+    description: &#x27;Introduction to Angular Component Testing&#x27;,
+    duration: &#x27;5:31&#x27;,
+    seqNo: 8,
+    courseId: 12,
+  },
+
+  48: {
+    id: 48,
+    description: &#x27;Testing Angular Components without the DOM&#x27;,
+    duration: &#x27;8:19&#x27;,
+    seqNo: 9,
+    courseId: 12,
+  },
+
+  49: {
+    id: 49,
+    description: &#x27;Testing Angular Components with the DOM&#x27;,
+    duration: &#x27;7:05&#x27;,
+    seqNo: 10,
+    courseId: 12,
+  },
+
+  // Ngrx Course
+  50: {
+    id: 50,
+    description: &#x27;Welcome to the Angular Ngrx Course&#x27;,
+    duration: &#x27;6:53&#x27;,
+    seqNo: 1,
+    courseId: 4,
+  },
+  51: {
+    id: 51,
+    description: &#x27;The Angular Ngrx Architecture Course - Helicopter View&#x27;,
+    duration: &#x27;5:52&#x27;,
+    seqNo: 2,
+    courseId: 4,
+  },
+  52: {
+    id: 52,
+    description:
+      &#x27;The Origins of Flux - Understanding the Famous Facebook Bug Problem&#x27;,
+    duration: &#x27;8:17&#x27;,
+    seqNo: 3,
+    courseId: 4,
+  },
+  53: {
+    id: 53,
+    description: &quot;Custom Global Events - Why Don&#x27;t They Scale In Complexity?&quot;,
+    duration: &#x27;7:47&#x27;,
+    seqNo: 4,
+    courseId: 4,
+  },
+  54: {
+    id: 54,
+    description:
+      &#x27;The Flux Architecture - How Does it Solve Facebook Counter Problem?&#x27;,
+    duration: &#x27;9:22&#x27;,
+    seqNo: 5,
+    courseId: 4,
+  },
+  55: {
+    id: 55,
+    description: &#x27;Unidirectional Data Flow And The Angular Development Mode&#x27;,
+    duration: &#x27;7:07&#x27;,
+    seqNo: 6,
+    courseId: 4,
+  },
+
+  56: {
+    id: 56,
+    description: &#x27;Dispatching an Action - Implementing the Login Component&#x27;,
+    duration: &#x27;4:39&#x27;,
+    seqNo: 7,
+    courseId: 4,
+  },
+  57: {
+    id: 57,
+    description: &#x27;Setting Up the Ngrx DevTools - Demo&#x27;,
+    duration: &#x27;4:44&#x27;,
+    seqNo: 8,
+    courseId: 4,
+  },
+  58: {
+    id: 58,
+    description: &#x27;Understanding Reducers - Writing Our First Reducer&#x27;,
+    duration: &#x27;9:10&#x27;,
+    seqNo: 9,
+    courseId: 4,
+  },
+  59: {
+    id: 59,
+    description: &#x27;How To Define the Store Initial State&#x27;,
+    duration: &#x27;9:10&#x27;,
+    seqNo: 10,
+    courseId: 4,
+  },
+
+  60: {
+    id: 60,
+    description: &#x27;Introduction to NestJs&#x27;,
+    duration: &#x27;4:29&#x27;,
+    seqNo: 1,
+    courseId: 14,
+  },
+  61: {
+    id: 61,
+    description: &#x27;Development Environment Setup&#x27;,
+    duration: &#x27;6:37&#x27;,
+    seqNo: 2,
+    courseId: 14,
+  },
+  62: {
+    id: 62,
+    description: &#x27;Setting up a MongoDB Database&#x27;,
+    duration: &#x27;6:38&#x27;,
+    seqNo: 3,
+    courseId: 14,
+  },
+  63: {
+    id: 63,
+    description: &#x27;CRUD with NestJs - Controllers and Repositories&#x27;,
+    duration: &#x27;12:12&#x27;,
+    seqNo: 4,
+    courseId: 14,
+  },
+  64: {
+    id: 64,
+    description: &#x27;First REST endpoint - Get All Courses&#x27;,
+    duration: &#x27;3:42&#x27;,
+    seqNo: 5,
+    courseId: 14,
+  },
+  65: {
+    id: 65,
+    description: &#x27;Error Handling&#x27;,
+    duration: &#x27;5:15&#x27;,
+    seqNo: 6,
+    courseId: 14,
+  },
+  66: {
+    id: 66,
+    description: &#x27;NestJs Middleware&#x27;,
+    duration: &#x27;7:08&#x27;,
+    seqNo: 7,
+    courseId: 14,
+  },
+  67: {
+    id: 67,
+    description: &#x27;Authentication in NestJs&#x27;,
+    duration: &#x27;13:22&#x27;,
+    seqNo: 8,
+    courseId: 14,
+  },
+  68: {
+    id: 68,
+    description: &#x27;Authorization in NestJs&#x27;,
+    duration: &#x27;6:43&#x27;,
+    seqNo: 9,
+    courseId: 14,
+  },
+  69: {
+    id: 69,
+    description: &#x27;Guards &amp; Interceptors&#x27;,
+    duration: &#x27;8:16&#x27;,
+    seqNo: 10,
+    courseId: 14,
+  },
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="USERS"></a>
+                    <span class="name">
+                        <span ><b>USERS</b></span>
+                        <a href="#USERS"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  1: {
+    id: 1,
+    email: &#x27;test@angular-university.io&#x27;,
+    password: &#x27;test&#x27;,
+  },
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/courses/schemas/courses.schema.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="coursesSchema"></a>
+                    <span class="name">
+                        <span ><b>coursesSchema</b></span>
+                        <a href="#coursesSchema"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new mongoose.Schema({
+  seqNum: {
+    type: Number,
+    required: true,
+  },
+  url: String,
+  iconUrl: String,
+  courseListIcon: String,
+  description: String,
+  longDescription: String,
+  category: String,
+  lessonsCount: String,
+  promo: Boolean,
+})</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/constants/constants.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="jwtConstants"></a>
+                    <span class="name">
+                        <span ><b>jwtConstants</b></span>
+                        <a href="#jwtConstants"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  secret: &#x27;secretKey&#x27;,
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/courses/schemas/lessons.schema.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="lessonsSchema"></a>
+                    <span class="name">
+                        <span ><b>lessonsSchema</b></span>
+                        <a href="#lessonsSchema"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new mongoose.Schema({
+  description: String,
+  SeqNo: Number,
+  duration: String,
+  course: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: &#x27;Course&#x27;,
+  },
+})</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/constants.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="MONGO_CONNECTION"></a>
+                    <span class="name">
+                        <span ><b>MONGO_CONNECTION</b></span>
+                        <a href="#MONGO_CONNECTION"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;mongodb://localhost:27017/nestjs-course&#x27;</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/auth/schemas/users.schema.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="UsersSchema"></a>
+                    <span class="name">
+                        <span ><b>UsersSchema</b></span>
+                        <a href="#UsersSchema"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new mongoose.Schema({
+  userName: {
+    type: String,
+    required: true,
+    unique: true,
+  },
+  roles: {
+    type: [String],
+    default: [&#x27;user&#x27;],
+  },
+  password: {
+    type: String,
+    required: true,
+  },
+})</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'miscellaneous-variables';
+            var COMPODOC_CURRENT_PAGE_URL = 'variables.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
