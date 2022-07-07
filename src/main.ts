@@ -33,6 +33,7 @@ async function bootstrap() {
     .setTitle('Online Learning')
     .setDescription('NestJS Application for Online Education')
     .setVersion('1.0')
+    .addBearerAuth()
     .addTag('Course', 'Course end point and its related lessons')
     .build();
   const document = SwaggerModule.createDocument(app, config);
